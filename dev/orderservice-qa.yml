@@ -1,0 +1,6 @@
+server:
+  port: 8081
+app:
+  config:
+    departmentServiceURL: http://localhost:8082/department-service/
+    departmentEndpoint: fetch/department/details/
