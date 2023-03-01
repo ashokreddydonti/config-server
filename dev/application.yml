@@ -2,7 +2,7 @@ common:
   config:
     feature:
       flags:
-        enableSMS: true
+        enableSMS: false
 
 management:
   endpoints:
