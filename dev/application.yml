@@ -3,3 +3,9 @@ common:
     feature:
       flags:
         enableSMS: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['health','info','env','beans','prometheus','refresh']
