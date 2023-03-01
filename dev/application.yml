@@ -2,4 +2,4 @@ common:
   config:
     feature:
       flags:
-        enableSMS: false
+        enableSMS: true
